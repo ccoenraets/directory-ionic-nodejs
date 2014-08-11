@@ -3,7 +3,7 @@
 Employee directory is a sample application that allows you to look up employees by name, view the details of an employee,
 call, text, or email an employee, and navigate up and down the org chart.
 
-This version of Employee Directory is built with [Ionic]() and [Node.js]().
+This version of Employee Directory is built with [Ionic](http://ionicframework.com/) and [Node.js]().
 
 You can test the application in your browser:
 - Using the hosted version
@@ -30,7 +30,13 @@ Click [here](http://ionic-directory.herokuapp.com) to run the hosted version in 
   npm install
   ```
 
-1. Open a browser and access: http://localhost:5000
+1. Start the server
+
+  ```
+  node server
+  ```
+
+1. Open a browser and access: [http://localhost:5000](http://localhost:5000)
 
 
 ## Deploying the Node.js Server to Heroku
