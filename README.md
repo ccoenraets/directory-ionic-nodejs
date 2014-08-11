@@ -7,6 +7,8 @@ call, text, or email an employee, and navigate up and down the org chart.
 
 This version of Employee Directory is built with [Ionic](http://ionicframework.com/) and [Node.js]().
 
+![alt tag](assets/directory_search.png)
+
 You can test the application in your browser:
 - Using the hosted version
 - By running the application's Node.js server locally
