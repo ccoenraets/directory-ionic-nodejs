@@ -43,9 +43,7 @@ Click [here](http://ionic-directory.herokuapp.com) to run the hosted version in 
 
 ## Deploying the Node.js Server to Heroku
 
-Click the button below to deploy the application on your own Heroku instance:
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+Click the "Deploy to Heroku" button at the top of this page to deploy the application to your own Heroku instance.
 
 
 ## Running in Cordova
