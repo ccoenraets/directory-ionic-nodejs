@@ -1,0 +1,9 @@
+{
+  "name": "ionic-node-sample-app",
+  "description": "Ionic Node.js sample app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "~4.4.3"
+  }
+}

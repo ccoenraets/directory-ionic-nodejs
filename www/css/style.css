@@ -1,0 +1,32 @@
+/* Empty. Add your own CSS if you like */
+.item-avatar > img:first-child, .item-avatar .item-image, .item-avatar .item-content > img:first-child, .item-avatar .item-content .item-image, .item-avatar-left > img:first-child, .item-avatar-left .item-image, .item-avatar-left .item-content > img:first-child, .item-avatar-left .item-content .item-image {
+    border-radius: 25px;
+    max-width: 50px;
+    max-height: 50px;
+    top: 10px;
+}
+
+.card .item-avatar > img:first-child {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 25px;
+    left: 70px;
+}
+
+.card .item-avatar {
+    padding-left: 130px;
+}
+
+.card .item-avatar:first-child > img:first-child {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50px;
+    left: 15px;
+}
+
+.card .item-avatar:first-child {
+    padding-top: 40px;
+    padding-left: 130px;
+    height: 120px;
+}
+

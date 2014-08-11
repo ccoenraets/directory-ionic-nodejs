@@ -1,0 +1,20 @@
+<ion-view title="Reports">
+
+    <ion-content has-header="true" padding="true">
+
+        <div class="list card">
+            <div class="item item-avatar">
+                <img src="pics/{{employee.pic }}"/>
+                <h2>{{employee.firstName}} {{employee.lastName}}</h2>
+                <p>{{employee.title}}</p>
+            </div>
+            <a ng-repeat="report in employee.reports" class="item item-avatar item-icon-left" href="#/employees/{{report.id}}">
+                <img src="pics/{{report.pic }}"/>
+                {{report.firstName}} {{report.lastName}}
+                <p>{{report.title}}</p>
+            </a>
+        </div>
+
+    </ion-content>
+
+</ion-view>

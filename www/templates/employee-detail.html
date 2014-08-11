@@ -1,0 +1,21 @@
+<ion-view title="Employee">
+
+    <ion-content has-header="true" padding="true">
+
+        <div class="list card">
+            <div class="item item-avatar">
+                <img src="pics/{{employee.pic }}"/>
+                <h2>{{employee.firstName}} {{employee.lastName}}</h2>
+                <p>{{employee.title}}</p>
+            </div>
+            <a class="item item-icon-left" href="#/employees/{{employee.managerId}}" ng-if="employee.managerId > -1"><i class="icon ion-ios7-person"></i>View Manager<p>{{employee.managerName}}</p></a>
+            <a class="item item-icon-left" href="#/employees/{{employee.id}}/reports" ng-if="employee.reports > 0"><i class="icon ion-person-stalker"></i>View Direct Reports<p>{{employee.reports}}</p></a>
+            <a class="item item-icon-left" href="tel:{{employee.officePhone}}"><i class="icon ion-ios7-telephone"></i>Call Office<p>{{employee.officePhone}}</p></a>
+            <a class="item item-icon-left" href="tel:{{employee.cellPhone}}"><i class="icon ion-ios7-telephone"></i>Call Cell<p>{{employee.cellPhone}}</p></a>
+            <a class="item item-icon-left" href="sms:{{employee.cellPhone}}"><i class="icon ion-chatbox-working"></i>SMS<p>{{employee.cellPhone}}</p></a>
+            <a class="item item-icon-left" href="mailto:{{employee.email}}"><i class="icon ion-ios7-email"></i>Email<p>{{employee.email}}</p></a>
+        </div>
+
+    </ion-content>
+
+</ion-view>
