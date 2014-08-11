@@ -1,3 +1,5 @@
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 # Employee Directory with Ionic and Node
 
 Employee directory is a sample application that allows you to look up employees by name, view the details of an employee,
@@ -41,7 +43,10 @@ Click [here](http://ionic-directory.herokuapp.com) to run the hosted version in 
 
 ## Deploying the Node.js Server to Heroku
 
+Click the button below to deploy the application on your own Heroku instance:
+
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 
 ## Running in Cordova
 
@@ -83,7 +88,7 @@ Click [here](http://ionic-directory.herokuapp.com) to run the hosted version in 
 
 1. Delete the default ***www*** folder in the ***employee-directory*** folder that was just created
 
-1. Copy the ***www*** folder from this repository into the ***employee-directory*** folder
+1. Copy the ***www*** folder from this repository to the Ionic project's ***employee-directory*** folder
 
 1. Modify ***www/js/services.js*** and specify the URL where your Node.js server is running. For example:
 
