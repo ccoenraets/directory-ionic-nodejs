@@ -1,15 +1,39 @@
-# Employee Directory with Ionic and Node.js
+# Employee Directory with Ionic and Node
 
 Employee directory is a sample application that allows you to look up employees by name, view the details of an employee,
 call, text, or email an employee, and navigate up and down the org chart.
 
 This version of Employee Directory is built with [Ionic]() and [Node.js]().
 
+You can test the application in your browser:
+- Using the hosted version
+- By running the application's Node.js server locally
+- By deploying the application's Node.js server on Heroku
+
+You can also run the application as a hybrid app in Cordova.
+
 ## Hosted Version
 
 Click [here](http://ionic-directory.herokuapp.com) to run the hosted version in your browser.
 
-## Deploy your Own Version
+## Running the Node.js Server Locally
+
+1. Make sure you have an up-to-date version of Node.js installed on your system. If you don't have Node.js installed, you can install it from [here](http://nodejs.org/).
+
+1. Clone this repository
+
+1. On the command line, navigate (cd) to the **directory-ionic-nodejs** folder
+
+1. Install the server dependencies
+
+  ```
+  npm install
+  ```
+
+1. Open a browser and access: http://localhost:5000
+
+
+## Deploying the Node.js Server to Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
