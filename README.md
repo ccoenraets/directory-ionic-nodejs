@@ -7,8 +7,7 @@ This version of Employee Directory is built with [Ionic]() and [Node.js]().
 
 ## Hosted Version
 
-Click [here] to run the hosted version in your browser.
-
+Click [here](http://ionic-directory.herokuapp.com) to run the hosted version in your browser.
 
 ## Deploy your Own Version
 
@@ -61,7 +60,7 @@ Click [here] to run the hosted version in your browser.
  ```
  angular.module('directory.services', ['ngResource'])
      .factory('Employees', function ($resource) {
-         return $resource('http://myserver.com/employees/:employeeId/:data');
+         return $resource('http://ionic-directory.herokuapp.com/employees/:employeeId/:data');
      });
  ```
 
