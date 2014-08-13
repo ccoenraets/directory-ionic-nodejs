@@ -8,7 +8,7 @@
                 <h2>{{employee.firstName}} {{employee.lastName}}</h2>
                 <p>{{employee.title}}</p>
             </div>
-            <a ng-repeat="report in employee.reports" class="item item-avatar item-icon-left" href="#/employees/{{report.id}}">
+            <a ng-repeat="report in employee.reports" class="item item-avatar item-icon-left" ui-sref="reports({ employeeId: report.id})">
                 <img src="pics/{{report.pic }}"/>
                 {{report.firstName}} {{report.lastName}}
                 <p>{{report.title}}</p>

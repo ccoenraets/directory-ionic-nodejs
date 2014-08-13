@@ -12,7 +12,7 @@
     <ion-content class="has-header has-subheader">
         <ion-list>
             <ion-item ng-repeat="employee in employees" type="item-text-wrap" class="item-avatar"
-                      href="#/employees/{{employee.id}}">
+                      ui-sref="employee({ employeeId: employee.id })">
                 <img src="pics/{{employee.pic}}"/>
                 {{employee.firstName}} {{employee.lastName}}
                 <p>{{employee.title}}</p>
