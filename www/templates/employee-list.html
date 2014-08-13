@@ -11,7 +11,7 @@
 
     <ion-content class="has-header has-subheader">
         <ion-list>
-            <ion-item ng-repeat="employee in employees" type="item-text-wrap" class="item-avatar"
+            <ion-item ng-repeat="employee in employees | filter:searchKey" type="item-text-wrap" class="item-avatar"
                       href="#/employees/{{employee.id}}">
                 <img src="pics/{{employee.pic}}"/>
                 {{employee.firstName}} {{employee.lastName}}
